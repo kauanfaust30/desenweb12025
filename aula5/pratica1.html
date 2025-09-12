@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="estilo1.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <td colspan="4">
+        <input type="text" id="visor" disabled>
+      </td>
+    </tr>
+    <tr>
+      <td><button onclick="adicionarNumero('7')">7</button></td>
+      <td><button onclick="adicionarNumero('8')">8</button></td>
+      <td><button onclick="adicionarNumero('9')">9</button></td>
+      <td><button class="op" onclick="adicionarOperacao('/', '÷')">÷</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="adicionarNumero('4')">4</button></td>
+      <td><button onclick="adicionarNumero('5')">5</button></td>
+      <td><button onclick="adicionarNumero('6')">6</button></td>
+      <td><button class="op" onclick="adicionarOperacao('*', '×')">×</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="adicionarNumero('1')">1</button></td>
+      <td><button onclick="adicionarNumero('2')">2</button></td>
+      <td><button onclick="adicionarNumero('3')">3</button></td>
+      <td><button class="op" onclick="adicionarOperacao('-', '−')">−</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="adicionarNumero('0')">0</button></td>
+      <td><button onclick="adicionarNumero('.')">.</button></td>
+      <td><button class="limpar" onclick="limparTudo()">C</button></td>
+      <td><button class="op" onclick="adicionarOperacao('+', '+')">+</button></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <button class="igual" style="width: 100%;" onclick="mostrarResultado()">=</button>
+      </td>
+    </tr>
+  </table>
+
+  <script src="script1.js"></script>
+</body>
+</html>
