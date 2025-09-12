@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Notas</title>
+  <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+
+  <table>
+    <caption>Notas dos Alunos</caption>
+    
+    <thead>
+      <tr>
+        <th rowspan="2" class="info">Aluno</th>
+        <th colspan="3" class="info">Semestre 1</th>
+        <th colspan="3" class="info">Semestre 2</th>
+        <th colspan="3" class="info">Semestre 3</th>
+      </tr>
+      <tr>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+        <th>Nota 3</th>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+        <th>Nota 3</th>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+        <th>Nota 3</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr>
+        <td>João</td>
+        <td id="nota1.1">10</td>
+        <td id="nota1.2">8</td>
+        <td id="nota1.3">9</td>
+        <td id="nota1.4">6</td>
+        <td id="nota1.5">8.7</td>
+        <td id="nota1.6">10</td>
+        <td id="nota1.7">6</td>
+        <td id="nota1.8">7</td>
+        <td id="nota1.9">9</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td id="nota2.1">8</td>
+        <td id="nota2.2">6</td>
+        <td id="nota2.3">10</td>
+        <td id="nota2.4">7</td>
+        <td id="nota2.5">7.7</td>
+        <td id="nota2.6">8</td>
+        <td id="nota2.7">6</td>
+        <td id="nota2.8">9.5</td>
+        <td id="nota2.9">9</td>
+      </tr>
+      <tr>
+        <td>José</td>
+        <td id="nota3.1">9</td>
+        <td id="nota3.2">10</td>
+        <td id="nota3.3">7.5</td>
+        <td id="nota3.4">6.5</td>
+        <td id="nota3.5">7</td>
+        <td id="nota3.6">8.5</td>
+        <td id="nota3.7">9</td>
+        <td id="nota3.8">7.5</td>
+        <td id="nota3.9">8</td>
+      </tr>
+      <tr>
+        <td>Paulo</td>
+        <td id="nota4.1">6.5</td>
+        <td id="nota4.2">7</td>
+        <td id="nota4.3">8.5</td>
+        <td id="nota4.4">9</td>
+        <td id="nota4.5">9.7</td>
+        <td id="nota4.6">10</td>
+        <td id="nota4.7">6.8</td>
+        <td id="nota4.8">7.75</td>
+        <td id="nota4.9">9</td>
+      </tr>
+      <tr>
+        <td>Miguel</td>
+        <td id="nota5.1">8.75</td>
+        <td id="nota5.2">7</td>
+        <td id="nota5.3">8.5</td>
+        <td id="nota5.4">9.8</td>
+        <td id="nota5.5">8</td>
+        <td id="nota5.6">9</td>
+        <td id="nota5.7">5.75</td>
+        <td id="nota5.8">7.5</td>
+        <td id="nota5.9">6</td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td id="nota6.1">9.5</td>
+        <td id="nota6.2">8</td>
+        <td id="nota6.3">8.5</td>
+        <td id="nota6.4">9.8</td>
+        <td id="nota6.5">9.7</td>
+        <td id="nota6.6">10</td>
+        <td id="nota6.7">8.8</td>
+        <td id="nota6.8">10</td>
+        <td id="nota6.9">9</td>
+      </tr>
+    </tbody>
+  </table><br><br>
+<div class="botoes">
+  <button onclick="calcularMediaAlunos()">Médias Alunos</button>
+  <button onclick="calcularMediaNotas()">Médias Notas</button>
+</div>
+<script src="script2.js"></script>
+</body>
+</html>

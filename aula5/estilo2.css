@@ -1,0 +1,33 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+table{
+    border: 1px solid black;
+
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align:left;
+}
+
+.info{
+    background-color: rgb(188, 189, 189);
+    font-weight: bold;
+}
+
+.botoes {
+  display: flex;
+  gap: 15px; 
+  margin-top: 10px;
+}
+
+.botoes button {
+  padding: 8px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}

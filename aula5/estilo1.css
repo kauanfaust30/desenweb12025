@@ -3,43 +3,42 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #fafafa;
+  background: #5f5d5d;
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 table {
-  background: rgb(125, 124, 124);
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 10px;
 }
 
 #visor {
-  width: 100%;
+  width: 90%;
   height: 40px;
   font-size: 18px;
+  fontcolor: #000;
   text-align: right;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 10px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 2px solid #080808;
   background-color:#d7d4d4;
 }
 
 td {
-  padding: 5px;
+  padding: 10px;
 }
 
 button {
   height: 50px;
+  width: 90%;
   font-size: 18px;
   cursor: pointer;
   border: none;
   border-radius: 8px;
   background: #e0e0e0;
   width: 100%;
-  border-color: black;
+  border: 2px solid #080808;
   
 }
 
@@ -69,6 +68,7 @@ button:hover {
   background: #80a5c3;
   color: rgb(8, 8, 8);
   border: black;
+   border: 2px solid #080808;
 }
 
 .igual:hover {
