@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(230, 144, 190);
+}
+
+.container{
+    width: 500px;
+    margin:  auto;
+    background-color:rgb(175, 173, 170);
+    padding: 1px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-color: black;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+input{
+    background-color: rgb(197, 97, 212);
+    border-radius: 5px;
+}
+
+select{
+    background-color: rgb(197, 97, 212);
+    border-radius: 5px;
+}
+
+option{
+    background-color: rgb(197, 97, 212);
+    border-radius: 5px;
+}
+
+option:hover{
+    background-color: rgb(203, 14, 153);
+}
+
+fieldset{
+    border-radius:25px;
+    border-color:rgb(175, 173, 170);
+    padding: 10px;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+input:hover{
+    background-color: rgb(196, 34, 153);
+}
+
+.div1, .div2, .div3{
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    background-color: rgb(230, 144, 190);
+}
+
+form{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 20px;
+}
+
+button{
+    background-color: rgb(197, 97, 212);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+button:hover{
+    background-color: rgb(196, 34, 153);
+}
