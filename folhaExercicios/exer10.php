@@ -13,7 +13,7 @@
                     echo str_repeat("-", $nivel) . $chave . "<br>";
                     listaPastas($valor, $nivel + 1);
                 } else {
-                    echo str_repeat("-", $nivel) . $valor . "<br>";
+                    echo str_repeat("-", $nivel) .' ' . $valor . "<br>";
                 }
             }
         }
