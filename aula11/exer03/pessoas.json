@@ -1,0 +1,82 @@
+[
+    {
+        "nome": "fernado",
+        "sobrenome": "silva",
+        "email": "fernando@gmail.com",
+        "senha": "abcd",
+        "cidade": "recife",
+        "estado": "PE"
+    },
+    {
+        "nome": "Kauan Faust",
+        "sobrenome": "Kauan",
+        "email": "kauan.faust@unidavi.edu.br",
+        "senha": "12345",
+        "cidade": "Atalanta",
+        "estado": "SC"
+    },
+    {
+        "nome": "julia",
+        "sobrenome": "hillesheim",
+        "email": "juliahillesheim11@gmail.com",
+        "senha": "julia123",
+        "cidade": "Atalanta",
+        "estado": "SC"
+    },
+    {
+        "nome": "Ryan",
+        "sobrenome": "Faust",
+        "email": "Ryan@gmail",
+        "senha": "ryan4534",
+        "cidade": "Atalanta",
+        "estado": "SC"
+    },
+    {
+        "nome": "Rafael",
+        "sobrenome": "Arthur",
+        "email": "Rafael@gmail",
+        "senha": "896745",
+        "cidade": "Rio do Sul",
+        "estado": "SC"
+    },
+    {
+        "nome": "Pedro",
+        "sobrenome": "souza",
+        "email": "Pedro@gmail",
+        "senha": "Pedro123",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+    },
+    {
+        "nome": "Paulo",
+        "sobrenome": "Ricardo",
+        "email": "Paulo@gmail.com",
+        "senha": "Paulo6754",
+        "cidade": "Rio do Sul",
+        "estado": "SC"
+    },
+    {
+        "nome": "Ana",
+        "sobrenome": "Fernandez",
+        "email": "Anaf@gmail.com",
+        "senha": "Anafern4567",
+        "cidade": "Sao Paulo",
+        "estado": "SP"
+    },
+    {
+        "nome": "Maria",
+        "sobrenome": "Gabriela",
+        "email": "maria@gmail.com",
+        "senha": "Mariagab",
+        "cidade": "Aurora",
+        "estado": "SC"
+    },
+    {
+        "nome": "Mateus",
+        "sobrenome": "Sales",
+        "email": "Mateus@gmail.com",
+        "senha": "Mateussales000",
+        "cidade": "Rio do Sul",
+        "estado": "SC"
+    }
+]
