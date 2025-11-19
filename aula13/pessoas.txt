@@ -1,4 +1,0 @@
-codigo;nome;sobrenome;idade;endereco
-1;"Ryan";"Faust";11;"Ribeirão Matilde - Atalanta/SC"
-2;"Clodoaldo";"Faust";46;"Ribeirão Matilde - Atalanta/SC"
-3;"Marijane";"Senem Faust";44;"Ribeirão Matilde - Atalanta/SC"
