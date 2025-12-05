@@ -1,0 +1,134 @@
+/* ---------- VARIÁVEIS DE TEMA ---------- */
+:root {
+    --bg-1: #071226;
+    --bg-2: #081726;
+    --panel: rgba(255,255,255,0.04);
+    --accent: #4f9efc;
+    --accent-2: #60a5fa;
+    --muted: #93a5c0;
+    --glass-border: rgba(255,255,255,0.06);
+    --radius: 16px;
+    --max-width: 1200px;
+}
+
+/* ---------- GLOBAL ---------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg-1);
+    color: #fff;
+}
+
+/* ---------- CONTAINER PRINCIPAL ---------- */
+.content {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: var(--panel);
+    padding: 30px;
+    border-radius: var(--radius);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 0 20px #00000040;
+}
+
+/* ---------- TÍTULO ---------- */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+/* ---------- FORMULÁRIO ---------- */
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+form input[type="text"],
+form select {
+    flex: 1;
+    padding: 10px;
+    border-radius: calc(var(--radius) - 8px);
+    background: var(--bg-2);
+    border: 1px solid var(--glass-border);
+    color: #fff;
+    outline: none;
+}
+
+form input::placeholder {
+    color: var(--muted);
+}
+
+form button {
+    padding: 10px 16px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    border-radius: calc(var(--radius) - 10px);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form button:hover {
+    background: var(--accent-2);
+}
+
+/* ---------- TABELA ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-2);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--glass-border);
+}
+
+table th {
+    background: var(--panel);
+    padding: 12px;
+    text-align: left;
+    color: var(--accent);
+    font-weight: bold;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--glass-border);
+    color: #fff;
+}
+
+tr:hover td {
+    background: rgba(255,255,255,0.03);
+}
+
+/* ---------- AÇÕES ---------- */
+a {
+    color: #ff6161;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff8888;
+}
+
+/* ---------- BOTÃO VOLTAR ---------- */
+input[type="button"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: var(--accent);
+    border: none;
+    color: #fff;
+    border-radius: calc(var(--radius) - 10px);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="button"]:hover {
+    background: var(--accent-2);
+}

@@ -1,0 +1,107 @@
+:root {
+  --bg-1: #071226;
+  --bg-2: #081726;
+  --panel: rgba(255,255,255,0.04);
+  --accent: #4f9efc;
+  --accent-2: #60a5fa;
+  --muted: #93a5c0;
+  --glass-border: rgba(255,255,255,0.06);
+  --radius: 16px;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--bg-1);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* CONTAINER */
+.login-container {
+  width: 100%;
+  max-width: 360px;
+  padding: 20px;
+}
+
+/* CARTÃO */
+.login-card {
+  background: var(--panel);
+  border: 1px solid var(--glass-border);
+  padding: 35px 30px;
+  border-radius: var(--radius);
+  backdrop-filter: blur(12px);
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+}
+
+.login-card h2 {
+  margin-bottom: 25px;
+  color: var(--accent-2);
+}
+
+/* INPUTS */
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--glass-border);
+  background: var(--bg-2);
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  transition: 0.25s;
+}
+
+.input-group input::placeholder {
+  color: var(--muted);
+}
+
+.input-group input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(79,158,252,0.25);
+}
+
+/* BOTÃO LOGIN */
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: var(--radius);
+  background: var(--accent);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn-login:hover {
+  background: var(--accent-2);
+}
+
+/* LINK VOLTAR */
+.voltar {
+  display: block;
+  margin-top: 18px;
+  text-decoration: none;
+  color: var(--muted);
+  transition: 0.25s;
+}
+
+.voltar:hover {
+  color: var(--accent-2);
+}
