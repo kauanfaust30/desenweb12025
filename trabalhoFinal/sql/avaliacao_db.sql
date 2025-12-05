@@ -41,6 +41,7 @@ CREATE TABLE avaliacao (
     resposta INTEGER,
     feedback_textual TEXT,
     datahora TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW(),
+    envio_id serial,
 
     CONSTRAINT fk_avaliacao_setor
         FOREIGN KEY (setor_id)
@@ -60,3 +61,4 @@ CREATE TABLE avaliacao (
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
+
